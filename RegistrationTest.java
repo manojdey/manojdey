@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import org.openqa.selenium.support.ui.Select;
-
+//manoj add  comment
 //import org.testng.annotations.Test;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -31,13 +31,13 @@ public void testRegister()
 
 //driver.get(“http://newtours.demoaut.com/”);
 	System.setProperty("webdriver.chrome.driver", "C:\\ManojDeyWorkspace\\PracticeWP\\testone\\chromedriver.exe");
-	
+
 	WebDriver driver = new ChromeDriver();
-	
-		
+
+
 	//	driver.get("http://groupbookingstg.emirates.com/login/login.jsp");
 		driver.get("http://dolnxprodvm345:8080/login/login.jsp");
-	 
+
 
 //driver.findElement(By.linkText(“REGISTER”)).click();
 
@@ -73,13 +73,13 @@ driver.findElement(By.name("submit")).click();
 	WebElement menu = driver.findElement(By.xpath("//*[@id='music']"));
 
 	//Initiate mouse action using Actions class
-	Actions builder = new Actions(driver);    
+	Actions builder = new Actions(driver);
 
 	// move the mouse to the earlier identified menu option
 	builder.moveToElement(menu).build().perform();
 
 	// wait for max of 5 seconds before proceeding. This allows sub menu appears properly before trying to click on it
-	WebDriverWait wait = new WebDriverWait(driver, 5); 
+	WebDriverWait wait = new WebDriverWait(driver, 5);
 	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='subNav_music_menu']/tbody/tr[2]/td[1]/a[1]")));  // until this submenu is found
 
 	//identify menu option from the resulting menu display and click
@@ -94,4 +94,3 @@ driver.findElement(By.name("submit")).click();
 }
 
 }
-
