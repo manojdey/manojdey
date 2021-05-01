@@ -1,0 +1,23 @@
+From bf9e342d20990dd0474ef20bcc0764bf4d860f00 Mon Sep 17 00:00:00 2001
+From: "MANOJDEY-LAPTOP\\Admin" <manoj.dey@gmail.com>
+Date: Wed, 3 Mar 2021 19:31:03 +0530
+Subject: [PATCH] hotfix  file  2nd  time  modified
+
+---
+ Hotfixfile1.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/Hotfixfile1.txt b/Hotfixfile1.txt
+index 68208e5..7b0976d 100644
+--- a/Hotfixfile1.txt
++++ b/Hotfixfile1.txt
+@@ -1 +1,3 @@
+-line1 6.55pm
+\ No newline at end of file
++line1 6.55pm
++
++Line  2  added  @7.26PM
+\ No newline at end of file
+-- 
+2.30.0.windows.2
+
